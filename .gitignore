@@ -1,0 +1,112 @@
+# TLS-hybrid-bench .gitignore
+
+# Compiled binaries and build artifacts
+*.o
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+
+# Build directories
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+
+# OpenSSL/OQS build artifacts
+openssl/
+liboqs/
+oqs-provider/
+ossl-3.5/
+oqs/
+
+# Python environments
+venv/
+env/
+pqc-bench-env/
+*.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+*.lock
+
+# Test certificates and keys
+*.key
+*.crt
+*.csr
+*.pem
+server.*
+
+# Output data files
+data/output/*.csv
+data/output/*.json
+data/output/*.pdf
+results/figures/*.pdf
+results/reports/*.md
+results/reports/*.html
+
+# Keep example files but ignore generated ones
+!data/input/cari_input.csv
+!results/figures/.gitkeep
+!results/reports/.gitkeep
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment configuration
+.env
+.env.local
+config.local.*
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Profiling data
+*.prof
+
+# Local test configurations
+test_config.local.*
+local_settings.py
