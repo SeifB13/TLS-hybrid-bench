@@ -1,7 +1,10 @@
 # TLS Hybrid Bench - Post-Quantum Cryptography Benchmarking Suite
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![OpenSSL 3.5](https://img.shields.io/badge/OpenSSL-3.5-green.svg)](https://www.openssl.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16417652.svg)](https://doi.org/10.5281/zenodo.16417652)
+
 
 > **Banc d'essai pour l'évaluation des performances TLS 1.3 hybride avec cryptographie post-quantique**
 > 
